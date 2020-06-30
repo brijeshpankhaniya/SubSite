@@ -1,0 +1,11 @@
+<div>
+    <h1>Site name: </h1>
+    <input name="name" type="text" [(ngModel)]="site.siteTitle" /><br>
+    <h1>Site Discription:</h1>
+    <input name="dis" type="text" [(ngModel)]="site.siteDiscription" /><br>
+    <h1>Site Url:</h1>
+    <input name="url" type="text" [(ngModel)]="site.siteUrl" />
+    <div>
+        <button type="button" (click)="addsite(site)">add </button>
+    </div>
+</div>
